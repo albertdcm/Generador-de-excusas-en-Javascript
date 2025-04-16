@@ -1,5 +1,33 @@
-@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
 
-body{
-    background: white;
+.container {
+  text-align: center;
+  max-width: 600px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+#excuse {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+#btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
 }
